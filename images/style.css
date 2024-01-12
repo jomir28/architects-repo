@@ -118,6 +118,27 @@ margin-bottom: 10px;
 }
 
 
+/* facts releted style */
+.facts{
+    margin-top: 50px;
+}
+
+.facts-desc{
+    padding-right: 250px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card-container .card-items{
+    text-align: center;
+    border: 2px solid aquamarine;
+    padding: 40px;
+    
+}
 
 /* responsive style */
 @media screen and (max-width:576px) {
