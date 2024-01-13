@@ -139,19 +139,70 @@ margin-bottom: 10px;
     padding: 40px;
     
 }
+/* sponsor releted style */
+.sponsor{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sponsor-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sponsor-desc{
+    padding: 30px 180px;
+}
+.sponsor-icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sponsor-icon-container img{
+    width: 90px;
+}
+
+/* footer style */
+footer{
+    padding:80px 0;
+}
+
+.footer-container{
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+
+.footer-desc{
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+padding: 20px;
+}
+
+
+
 
 /* responsive style */
 @media screen and (max-width:576px) {
     .header{
         padding: 20px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .card-container{
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-
+.facts, .card-container{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+    .card-container{
+        gap: 20px;
+    }
 }
 
 
